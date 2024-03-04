@@ -2,8 +2,10 @@
   # Directory to change to before starting build
   base = "/"
 
+
   command = "CI=false npm run build"
   publish = "/opt/build/repo/build/static"
+
 
 # This is a redirect rule to handle single-page application routing
 [[redirects]]
