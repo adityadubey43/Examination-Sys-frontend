@@ -1,0 +1,15 @@
+[build]
+  # Directory to change to before starting build
+  base = "/"
+
+  # Command to build your site
+  command = "npm run build"
+
+  # Directory to change to after build has completed
+  publish = "/build/static"
+
+# This is a redirect rule to handle single-page application routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
